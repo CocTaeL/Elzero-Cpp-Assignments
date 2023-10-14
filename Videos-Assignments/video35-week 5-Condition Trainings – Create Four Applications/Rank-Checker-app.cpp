@@ -12,7 +12,7 @@ int main() {
     cout << "Please enter your points" << endl;
     cin >> points;
     cout << "your Points is " << points << " and your Rank is ";
-    
+    //Here Goes Thae app
     if (points < 500 )
     cout << "Beginner";
     else if (points >= 500 && points < 1000 )
