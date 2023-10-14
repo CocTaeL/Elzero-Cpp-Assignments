@@ -13,9 +13,7 @@ int main() {
     cin >> name;
     cout << "Hello " << name<< endl;
     cout << "Please chose 3 numbers between 1 - 100" << endl;
-    cin >> num1;
-    cin >> num2;
-    cin >> num3;
+    cin >> num1 >> num2 >> num3;
     cout << "you entered " << num1<< " "<< num2<<" "<<num3 << " and Greatest Number is ";
     
     if (num1> num2 && num1>num3 )
